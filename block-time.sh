@@ -1,4 +1,11 @@
 #!/bin/bash
+################################################################################
+#
+# Script created by @samnoble @ankh2054 for https://eosdublin.com & https://www.eos42.io
+#
+# Visit https://github.com/eos42/scripts/ for details.
+#
+################################################################################
 DIR=/opt/JungleTestnet-panthereos42
 PRODUCER=panthereos42
 TIMESTAMP="$($DIR/cleos.sh get table eosio eosio producers -l 150 | grep $PRODUCER -A 8 | grep last_produced_block | cut -d':' -f2)"
