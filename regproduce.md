@@ -32,13 +32,13 @@ This new account name should be 12 lowercase alphanumeric (a-z,0–9)
 #### **Create a bp_info.json For Your Block Producer**
 
 This will be used by voting portals and websites to identify producers. The
-bp_info.json contains location info for your Block Producer, nodes, and also
+bp_info.json & bp.json contains location info for your Block Producer, nodes, and also
 contains other identifiable information such as your Block Producer public key.
 
 **For instance
-**[http://yourwebsite.com/bp_info.json](http://yourwebsite.com/bp_info.json)
+**[http://yourwebsite.com/bp.json](http://yourwebsite.com/bp.json)
 When you register your producer the url field should be filled with
-[http://yourwebsite.com/.](http://yourwebsite.com/) Do not put the bp_info.json
+[http://yourwebsite.com/.](http://yourwebsite.com/) Do not put the bp_info.json & bp.json
 file in the url.
 
 #### **Example of EOS Block Producer bp_info.json**
