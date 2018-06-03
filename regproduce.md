@@ -15,6 +15,12 @@ Paste your wallet password
 #### **Load Generated EOS Account Private Key Into Your Wallet**
 
     cleos.sh wallet import <privkey>
+    
+    
+#### **Create new account keypair - Owner and Active keys**
+
+    cleos.sh create key
+    cleos.sh create key
 
 #### **Create New Account From Your Generated Account**
 
