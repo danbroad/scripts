@@ -50,10 +50,11 @@ file in the url.
 #### **Example of EOS Block Producer bp_info.json**
 
 For instance, for EOS42 the bp_info.json is located at
-[https://keybase.pub/ankh2054/bp_info.json](https://keybase.pub/ankh2054/bp_info.json)
+[https://www.eos42/static/files/bp.json](https://www.eos42/static/files/bp.json)
 so, the URL to locate this will be
-[https://keybase.pub/ankh2054/.](https://keybase.pub/ankh2054/) Your
-bp_info.json doesn’t have to be located on keybase, but that’s recommended.
+[https://www.eos42/static/files/](https://www.eos42/static/files/) 
+
+!!!!!!You should not be including bp.json as part of the URL.!!!!!!!
 
 [Template for the standard bp_info.json format for the EOS
 Mainnet](https://github.com/EOSPortal/bp-info-standard)**.**
