@@ -69,7 +69,12 @@ standard](https://www.w3schools.com/js/js_json_syntax.asp).
 This account name should be 12 lowercase alphanumeric (a-z,0–9) characters and
 it should match the new account you created above.
 
-    cleos.sh system regproducer accountname <producer-publickey> “http://<domain or ip>/BP_info.json/” -p accountname
+    cleos.sh system regproducer accountname <producer-publickey> “http://<domain or ip>/BP_info.json/” -p accountname <location-number>
+    
+    
+Location number lists here - https://gist.github.com/kesar/de2a21d975f0d410218dcd1bf94b301a
+    
+Please note there is an issue with specififying your location using cleos it currently defaults to 0, you will neeed to use EOSJS or another method. I will update with a way once I find one.
 
 #### **Finally, Verify You Are A Registered Producer**
 
